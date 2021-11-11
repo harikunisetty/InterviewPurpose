@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press "V" Destory CylinderGameObject
+  m_text: Press "V" Destory CapsuleGameObject
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1391,6 +1391,7 @@ GameObject:
   - component: {fileID: 1956376949}
   - component: {fileID: 1956376948}
   - component: {fileID: 1956376947}
+  - component: {fileID: 1956376953}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1516,6 +1517,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956376953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956376946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc535b1b3da8814d802e2c472fe9261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grenadePostion: {fileID: 1654049498}
+  CubeExplorer: {fileID: 1964655442683146063, guid: 94a83945f08b37f459c1a38c566b843e, type: 3}
+  speed: 20
 --- !u!1 &1973892714
 GameObject:
   m_ObjectHideFlags: 0
